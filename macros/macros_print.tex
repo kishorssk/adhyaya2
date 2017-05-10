@@ -1,0 +1,113 @@
+\usepackage{array}
+\usepackage{nudi}
+\font\dev=dvng10 at 14pt
+%\usepackage[none]{hyphenat}
+\def\s{\char'263}
+\def\c{\hbox{\lower8pt\hbox{\dev\char32}}}
+\def\goodbreak{\par\penalty-300 }
+\pretolerance=9000
+
+\usepackage[papersize={140mm,215mm},textwidth=100mm,textheight=170mm,
+topmargin=18mm,botmargin=11mm,leftmargin=20mm,rightmargin=20mm,
+headheight=6mm,headsep=4mm,footskip=6mm,cropmarks,nopagenumbers]{zwpagelayout}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+
+\pagestyle{fancy}
+
+\renewcommand\chaptermark[1]{\markboth{}{#1}}
+
+\renewcommand{\footrulewidth}{0pt}
+\chead[]{}
+\lhead[\footnotesize\rm\thepage]{\footnotesize\bfseries\rightmark} 
+\rhead[]{\footnotesize\rm\thepage}
+\cfoot[]{}
+\rfoot[]{}
+
+\def\mdash{{\rm --- }}
+
+\fancypagestyle{plain}{%
+\chead[]{}
+\lhead[]{}
+\rhead[]{}
+\cfoot[{\fontfamily{txr}\selectfont\thepage}]{{\fontfamily{txr}\selectfont\thepage}}
+\renewcommand{\headrulewidth}{0pt}
+}
+
+\makeatletter
+\renewcommand*\l@chapter[2]{%
+  \ifnum \c@tocdepth >\m@ne
+    \addpenalty{-\@highpenalty}%
+    \vskip 1.0em \@plus\p@
+    \setlength\@tempdima{2.2em}%
+    \begingroup
+      \parindent \z@ \rightskip \@pnumwidth
+      \parfillskip -\@pnumwidth
+      \leavevmode \bfseries
+      \advance\leftskip\@tempdima
+      \hskip -\leftskip
+      #1\nobreak\hfil \nobreak\hb@xt@\@pnumwidth{\hss\rm #2}\par
+      \penalty\@highpenalty
+    \endgroup
+  \fi}
+  
+\def\@chapter[#1]#2{\ifnum \c@secnumdepth >\m@ne
+                       \if@mainmatter
+                         \refstepcounter{chapter}%
+                         \typeout{\@chapapp\space\thechapter.}%
+                         \addcontentsline{toc}{chapter}%
+                                   {\protect\numberline{\rm\bfseries\thechapter}#1}%
+                       \else
+                         \addcontentsline{toc}{chapter}{#1}%
+                       \fi
+                    \else
+                      \addcontentsline{toc}{chapter}{#1}%
+                    \fi
+                    \chaptermark{#1}%
+                    \addtocontents{lof}{\protect\addvspace{10\p@}}%
+                    \addtocontents{lot}{\protect\addvspace{10\p@}}%
+                    \if@twocolumn
+                      \@topnewpage[\@makechapterhead{#2}]%
+                    \else
+                      \@makechapterhead{#2}%
+                      \@afterheading
+                    \fi}
+
+\def\@makechapterhead#1{%
+  \vspace*{10\p@}%
+  {\parindent \z@ \centering \normalfont
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \LARGE\bfseries \@chapapp\space \thechapter
+        \par\nobreak
+      \fi
+    \fi
+    \interlinepenalty\@M
+    \LARGE \bfseries #1\par\nobreak
+\vskip 5pt
+
+%\hrule height 2pt   
+ \vskip 10\p@  
+  }}
+\makeatother
+
+\newcounter{shloka}[chapter]
+
+\def\shloka{\bgroup\refstepcounter{shloka}\label{\thechapter shlokano\theshloka}\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces}
+\def\endshloka{\hfill||$\thinspace${\fontfamily{txr}\fontsize{10}{12}\selectfont\theshloka}$\thinspace$||\egroup\egroup\par}
+
+\def\shl{\bgroup\noindent\raggedright\leftskip=17pt\vbox\bgroup\bfseries\ignorespaces\obeylines}
+\def\endshl{\hfill\egroup\egroup\par\smallskip}
+
+\def\artha{\medbreak\bgroup\ignorespaces}%\raggedright}
+\def\endartha{\par\egroup\medbreak}
+
+\long\def\vishaya#1{\goodbreak{\bf\noindent #1}\par\medbreak}
+\long\def\stext{\textbf{(saMsakxqqta sholxVka/maMtarx) }}
+
+\long\def\chapterartha#1{\begin{center}#1\end{center}}
+\long\def\endchapter#1{\begin{center}\bf #1\end{center}}
+\long\def\endchapterartha#1{\begin{center}#1\end{center}}
+\def\uvaca#1{\goodbreak\centerline{{\large\textbf{#1}}}\medskip\par}
+
+%\pretolerance=9000

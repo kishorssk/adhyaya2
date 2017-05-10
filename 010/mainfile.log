@@ -1,0 +1,236 @@
+This is XeTeX, Version 3.1415926-2.3-0.9997.5 (TeX Live 2011) (format=xelatex 2014.8.6)  24 NOV 2016 14:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**mainfile.tex
+(./mainfile.tex
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, dumylang, nohyphenation, ge
+rman-x-2009-06-19, ngerman-x-2009-06-19, afrikaans, ancientgreek, ibycus, arabi
+c, armenian, basque, bulgarian, catalan, pinyin, coptic, croatian, czech, danis
+h, dutch, ukenglish, usenglishmax, esperanto, estonian, ethiopic, farsi, finnis
+h, french, galician, german, ngerman, swissgerman, monogreek, greek, hungarian,
+ icelandic, assamese, bengali, gujarati, hindi, kannada, malayalam, marathi, or
+iya, panjabi, tamil, telugu, indonesian, interlingua, irish, italian, kurmanji,
+ lao, latin, latvian, lithuanian, mongolian, mongolianlmc, bokmal, nynorsk, pol
+ish, portuguese, romanian, russian, sanskrit, serbian, serbianc, slovak, sloven
+ian, spanish, swedish, turkish, turkmen, ukrainian, uppersorbian, welsh, loaded
+.
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/local/texlive/2011/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count80
+\c@chapter=\count81
+\c@section=\count82
+\c@subsection=\count83
+\c@subsubsection=\count84
+\c@paragraph=\count85
+\c@subparagraph=\count86
+\c@figure=\count87
+\c@table=\count88
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+(../macros/macros_print.tex
+(/usr/local/texlive/2011/texmf-dist/tex/latex/tools/array.sty
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen103
+\extrarowheight=\dimen104
+\NC@list=\toks14
+\extratabsurround=\skip43
+\backup@length=\skip44
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/nudi/nudi.sty
+Package: nudi 
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/zwpagelayout/zwpagelayout.sty
+Package: zwpagelayout 2010/12/21 ZW Page Layout
+Package zwpagelayout Info: $Id: zwpagelayout.sty 377 2010-12-21 14:29:56Z zw $.
+
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is not detected.
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2010/12/23 v3.10 Keyval support for LaTeX options (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2011/04/18 v1.20 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2011/04/07 v1.13 Key value parser (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Prefix for e-TeX command names (HO)
+
+(/usr/local/texlive/2011/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+\zwpl@Driver=\count89
+Package zwpagelayout Info: Driver mode used: xetex.
+(zwpagelayout)              on input line 207.
+\ZW@baselineskip=\skip45
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/latexconfig/color.cfg
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: xetex.def on input line 130.
+
+(/usr/local/texlive/2011/texmf-dist/tex/xelatex/xetex-def/xetex.def
+File: xetex.def 2009/11/22 v0.94 LaTeX color/graphics driver for XeTeX (RRM/JK)
+
+))
+\zwpl@low=\dimen105
+\zwpl@len=\dimen106
+\zwpl@gap=\dimen107
+\zwpl@plus=\dimen108
+\zwpl@minus=\dimen109
+\zwpl@frame=\dimen110
+\zwpl@vsize=\dimen111
+\zwpl@Hshift=\count90
+\zwpl@Vshift=\count91
+)
+(/usr/local/texlive/2011/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+\fancy@headwidth=\skip46
+\f@ncyO@elh=\skip47
+\f@ncyO@erh=\skip48
+\f@ncyO@olh=\skip49
+\f@ncyO@orh=\skip50
+\f@ncyO@elf=\skip51
+\f@ncyO@erf=\skip52
+\f@ncyO@olf=\skip53
+\f@ncyO@orf=\skip54
+)
+\c@shloka=\count92
+)
+(./mainfile.aux)
+\openout1 = `mainfile.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
+LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Try loading font information for OT1+ndi on input line 6.
+ (/usr/local/texlive/2011/texmf-dist/tex/latex/nudi/ot1ndi.fd
+File: ot1ndi.fd 
+)
+(./mainfile.toc)
+\tf@toc=\write3
+\openout3 = `mainfile.toc'.
+
+LaTeX Font Info:    Try loading font information for OT1+txr on input line 10.
+
+(/usr/local/texlive/2011/texmf-dist/tex/latex/txfonts/ot1txr.fd
+File: ot1txr.fd 2000/12/15 v3.1
+) [1
+
+
+] [2
+
+]
+! I can't find file `005'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: ^^[[A^^[[B^^[[A
+! I can't find file `^^[[A^^[[B^^[[A'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: exit
+! I can't find file `exit'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: exit
+! I can't find file `exit'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 5
+! I can't find file `5'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: \input 5
+! I can't find file `\input'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `\input'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `\input'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `\input'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! I can't find file `\input'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: -d
+! I can't find file `-d'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: -D
+! I can't find file `-D'.
+l.15 \input 005
+               
+(Press Enter to retry, or Control-D to exit)
+Please type another input file name: 
+! Emergency stop.
+l.15 \input 005
+               
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 1498 strings out of 494150
+ 21384 string characters out of 3152950
+ 70560 words of memory out of 3000000
+ 4766 multiletter control sequences out of 15000+200000
+ 10402 words of font info for 23 fonts, out of 3000000 for 9000
+ 1018 hyphenation exceptions out of 8191
+ 38i,12n,43p,296b,321s stack positions out of 5000i,500n,10000p,200000b,50000s
+Output written on mainfile.pdf (2 pages).
